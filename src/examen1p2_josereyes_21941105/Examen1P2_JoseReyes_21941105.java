@@ -6,7 +6,6 @@
 package examen1p2_josereyes_21941105;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
 /**
  *

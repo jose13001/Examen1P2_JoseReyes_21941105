@@ -71,5 +71,13 @@ public class Escuadron {
         return "Escuadron{" + "nombre=" + nombre + ", LugarBase=" + LugarBase + ", lider=" + lider + ", HeroeVillano=" + HeroeVillano + ", miembros=" + miembros + '}';
     }
     
+    public Persona nombreUnico(String nombre){
+        for(Persona u :miembros){
+            if(nombre.equals(u.getNombre())){
+                return u;
+            }
+        }
+        return null;
+    }
     
 }
