@@ -9,10 +9,15 @@ package examen1p2_josereyes_21941105;
  *
  * @author josec
  */
-public class Extraterrestre extends Persona{
+public abstract class Extraterrestre extends Persona{
 
     public Extraterrestre(String nombre, String poder, String debilidad, String HeroeoVillano, int Fuerza, int HablidadM, int HabilidadF, boolean Escuadron) {
         super(nombre, poder, debilidad, HeroeoVillano, Fuerza, HablidadM, HabilidadF, Escuadron);
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
     
     

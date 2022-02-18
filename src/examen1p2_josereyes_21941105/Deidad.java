@@ -35,6 +35,23 @@ public class Deidad extends Extraterrestre{
     public void setReligion(String religion) {
         this.religion = religion;
     }
+
+    @Override
+    public String toString() {
+        return super.toString()+"Deidad{" + "creyentes=" + creyentes + ", religion=" + religion + '}';
+    }
+    
+
+    @Override
+    public void finalChance(Persona p1, Persona p2) {
+        p1.setFuerza(p1.getFuerza()*4);
+        p1.setHabilidadF(p1.getHabilidadF()*4);
+        p1.setHablidadM(p1.getHablidadM()*4);
+        p2.setFuerza(p2.getFuerza()/2);
+        p2.setHabilidadF(p2.getHabilidadF()/2);
+        p2.setHablidadM(p2.getHablidadM()/2);
+
+    }
     
     
     

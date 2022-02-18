@@ -5,17 +5,21 @@
  */
 package examen1p2_josereyes_21941105;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
 /**
  *
  * @author josec
  */
 public class Examen1P2_JoseReyes_21941105 {
+    static ArrayList<Universo>universo =new ArrayList();
+    static Scanner lea =new Scanner(System.in);
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+     
+        
     }
     
 }

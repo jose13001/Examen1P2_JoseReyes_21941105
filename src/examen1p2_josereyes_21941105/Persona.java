@@ -9,7 +9,7 @@ package examen1p2_josereyes_21941105;
  *
  * @author josec
  */
-public class Persona {
+public abstract class Persona {
     public String nombre;
     public String poder;
     public String debilidad;
@@ -99,6 +99,7 @@ public class Persona {
         return "Persona{" + "nombre=" + nombre + ", poder=" + poder + ", debilidad=" + debilidad + ", HeroeoVillano=" + HeroeoVillano + ", Fuerza=" + Fuerza + ", HablidadM=" + HablidadM + ", HabilidadF=" + HabilidadF + ", Escuadron=" + Escuadron + '}';
     }
     
+    public abstract void finalChance(Persona p1,Persona p2);
     
     
 
