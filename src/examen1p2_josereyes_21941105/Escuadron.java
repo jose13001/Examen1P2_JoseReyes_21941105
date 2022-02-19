@@ -18,10 +18,9 @@ public class Escuadron {
     boolean HeroeVillano;
     ArrayList<Persona>miembros;
 
-    public Escuadron(String nombre, String LugarBase, String lider, boolean HeroeVillano, ArrayList<Persona> miembros) {
+    public Escuadron(String nombre, String LugarBase, boolean HeroeVillano) {
         this.nombre = nombre;
         this.LugarBase = LugarBase;
-        this.lider = lider;
         this.HeroeVillano = HeroeVillano;
         this.miembros = miembros;
     }
